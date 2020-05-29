@@ -18,7 +18,7 @@ public class UserController {
     @PostConstruct
     public  void saveUser(){
         List<User> users=new ArrayList<>();
-        users.add(new User(64337,"Samay","Bangalore",50));
+        users.add(new User(64337,"sriraj","Bangalore",50));
         users.add(new User(64387,"salil","mumbai",20));
         userRepository.saveAll(users);
     }
